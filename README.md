@@ -1,7 +1,7 @@
 # **VBA of Wall Street**
 	
 ## **Overview of Project** 
-* Steve's parents are passinate about green energy.There are more green energy stocks to invest in, however they decided to invest all their money into DAQO New Energy Corp.DAQo's ticker symbol is `DQ`. Steve wants to help his parents and he decided to analyze a handfull of green energy stocks inaddition to DAQO's stocks as he is concerned about diversifying their funds. By automating the analysis of the stock data, we will help steve to reuse code with any stock and as well reduce chance of accidents and errors. Steve will be able to see the results of the analysis with a click of button for all the stocks and for any year.
+* Steve's parents are passinate about green energy.There are more green energy stocks to invest in, however they decided to invest all their money into DAQO New Energy Corp.DAQo's ticker symbol is `DQ`. Steve wants to help his parents and he decided to analyze a handfull of green energy stocks inaddition to DAQO's stocks as he is concerned about diversifying their funds. 
 
  
 ### Purpose 
@@ -12,7 +12,7 @@
 
 ## **Results** 
 
-![Elapsed run time for Output 2017](C:/Users/Ruth/OneDrive/Desktop/Class_Work/Module_2/HW2_Submission_ExcelVBA/Resources/VBA_Challenge_2017.png) 
+![Elapsed run time for Output 2017](./Desktop/Class_Work/Module_2/HW2_Submission_ExcelVBA/Resources/VBA_Challenge_2017.png) 
 
 ![Elapsed run time for Output 2018](C:/Users/Ruth/OneDrive/Desktop/Class_Work/Module_2/HW2_Submission_ExcelVBA/Resources/VBA_Challenge_2018.png) 
 
@@ -24,7 +24,7 @@
 
 * Advantages  
 
-	* to make the code more efficient—by taking fewer steps
+	* to make the code more efficientâ€”by taking fewer steps
 	* using less memory
 	* improving the logic of the code to make it easier for 		future users to read
 	* less complex and easier to maintain. 
