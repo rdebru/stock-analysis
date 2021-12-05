@@ -8,11 +8,11 @@
 
 ## **Results** 
 
-![Elapsed run time for Output 2017](C:/Users/Ruth/OneDrive/Desktop/Class_Work/Module_2/HW2_Submission_ExcelVBA/Resources/VBA_Challenge_2017.png) 
+![Elapsed run time for Output 2017](./VBA_Challenge_2017.png) 
 
-![Elapsed run time for Output 2018](C:/Users/Ruth/OneDrive/Desktop/Class_Work/Module_2/HW2_Submission_ExcelVBA/Resources/VBA_Challenge_2018.png) 
+![Elapsed run time for Output 2018](./VBA_Challenge_2018.png) 
 
-* we can see from the images above that the time to run the refactored VBA Script for the outputs of year 2017 and year 2018 is faster than original script of the module. The run time for year 2017 is (0.12109 seconds) and for year 2018 is (0.125 seconds) using the refactored code. Using original scriptor the run time for year 2017 is (0.8593 seconds) and year 2018 is (0.8632 seconds). There is a difference of approximately 0.63 seconds. The images for the elapsed run time of the Original script for year 2017 and year 2018 are on `All Stocks Analysis` worksheet. As we can see when we click on the button on `All Stocks Analysis` worksheet, the stock analysis outputs for years 2017 and 2018 are same for both refactored VBA script and Original VBA script. Eventhough the original scrip functions the same(outputs are the same) but it is slower than the refactored code for both years 2017 and 2018. There are two buttons on `All Stocks Analysis`, `Run Analysis for All Stocks refactored` button for refactored script and `Run Analysis for All Stocks` button for the original script.
+* we can see from the images above that the time to run the refactored VBA Script for the outputs of year 2017 and year 2018 is faster than original script of the module. The run time for year 2017 is (0.12109 seconds) and for year 2018 is (0.125 seconds) using the refactored code. Using original script the run time for year 2017 is (0.8593 seconds) and for year 2018 is (0.8632 seconds). There is a difference of approximately 0.73 seconds. The images for the elapsed run time of the Original script for year 2017 and year 2018 are on `All Stocks Analysis` worksheet. As we can see when we click on the button on `All Stocks Analysis` worksheet, the stock analysis outputs for years 2017 and 2018 are same for both refactored VBA script and Original VBA script. Eventhough the original scrip functions the same(outputs are the same results) for both years 2017 and 2018, it is slower than the refactored code. There are two buttons on `All Stocks Analysis`, `Run Analysis for All Stocks refactored` button for refactored script and `Run Analysis for All Stocks` button for the original script.
  
 * to refactor the original VBA script, we will use four arrays, the tickers array and three output arrays (tickerVolumes, tickerStartingPrices and tickerEndingPrices). The tickerIndex variable is used to access the index across all four arrays. First for loop is used to initialize the tickerVolume. The tickerIndex is initialize to zero before the for loop. One for loop is used to loop over all the rows in the spread sheet. `For i = RowStart To RowCount`. Inside the loop, increase the volume for current ticker (the selected tickerIndex) for each row. Then an if statement is used to check if the current row is first row of ticker index and the previous row's ticker does not match with the selected tickerIndex. If true, get starting price for current ticker(Selected ticker index).
 `If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then`
@@ -30,7 +30,7 @@
 1. What are the advantages or disadvantages of refactoring code? 
 
 * Advantages  
-	* the code is efficient—by taking fewer steps and using less 	memory 
+	* the code is efficientâ€”by taking fewer steps and using less 	memory 
 	* help Saved time and money in the future
 	* by improving the logic of the code, it is easier for 		future users to understand or read.
 	* helps to find exting Bugs that make the code slow 
